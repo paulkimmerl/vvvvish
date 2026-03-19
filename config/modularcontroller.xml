@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE ROOT PUBLIC "" ""[]>
+<Spread>
+  <Item>
+    <Sliders Bounds="-0.5587031, -0.19302571, 0.11, 0.6" C_Name="Iterations" C_Type="0" C_Value="0.31775683" Map_MinDMax="0.1, 22" Midi_Port_Name="" Path="ObjectManager.Objects.TrippyFractalContext.Fractalization.Iterations" Position="-0.5037031, 0.1069743" />
+  </Item>
+  <Item>
+    <Sliders Bounds="-0.2616916, -0.21504593, 0.11, 0.6" C_Name="Input Scale" C_Type="0" C_Value="0.023364425" Map_MinDMax="0.29, 10.5" Midi_Port_Name="" Path="ObjectManager.Objects.TrippyFractalContext.Fractalization.Input Scale" Position="-0.2066916, 0.08495408" />
+  </Item>
+  <Item>
+    <Sliders Bounds="-0.026832866, -0.3733756, 0.11, 0.6" C_Name="Rotate" C_Type="3" C_Value="0" Map_MinDMax="0.49, 1" Midi_Port_Name="" Path="ObjectManager.Objects.TrippyFractalContext.Transformations.Rotate" Position="0.028167134, -0.07337558" />
+  </Item>
+  <Item>
+    <Sliders Bounds="-0.2768103, -0.879012, 0.11, 0.6" C_Name="CameraClipSphereRadius" C_Type="0" C_Value="0.023364425" Map_MinDMax="0.01, 22" Midi_Port_Name="" Path="ObjectManager.Objects.TrippyFractalContext.Rendering.CameraClipSphereRadius" Position="-0.2218103, -0.579012" />
+  </Item>
+  <Item>
+    <Sliders Bounds="0.23781413, -0.24759853, 0.11, 0.6" C_Name="Mix" C_Type="0" C_Value="0.023364425" Map_MinDMax="0, 1" Midi_Port_Name="" Path="ObjectManager.Objects.TrippyFractalContext.SourceObject.Mix" Position="0.29281414, 0.052401483" />
+  </Item>
+  <Item>
+    <Sliders Bounds="0.5384746, -0.23015136, 0.11, 0.6" C_Name="MixSphereRadius" C_Type="0" C_Value="0.023364425" Map_MinDMax="0, 3" Midi_Port_Name="" Path="ObjectManager.Objects.TrippyFractalContext.SourceObject.Sphere Radius" Position="0.5934746, 0.06984866" />
+  </Item>
+  <Item>
+    <Sliders Bounds="-0.01769371, -0.072127104, 0.11, 0.6" C_Name="Rotation Period" C_Type="1" C_Value="0.023364425" Map_MinDMax="0.75, 111" Midi_Port_Name="" Path="ObjectManager.Objects.TrippyFractalContext.Transformations.Rotation Period" Position="0.03730629, 0.22787291" />
+  </Item>
+  <Item>
+    <Sliders Bounds="-0.58894795, -0.8825541, 0.11, 0.6" C_Name="CenterLightIntensity" C_Type="0" C_Value="0.023364425" Map_MinDMax="0, 5" Midi_Port_Name="" Path="SceneManager.Scene.Lights.CenterVolumetricLight.Intensity" Position="-0.53394794, -0.5825541" />
+  </Item>
+  <Item>
+    <Sliders Bounds="-0.01514348, -0.8351243, 0.11, 0.6" C_Name="Depth of Field" C_Type="3" C_Value="0" Map_MinDMax="0, 1" Midi_Port_Name="" Path="SceneManager.Scene.PostFX.Deph Of Field.Deph Of Field" Position="0.03985652, -0.5351243" />
+  </Item>
+  <Item>
+    <Sliders Bounds="0.23285046, -0.87196225, 0.11, 0.6" C_Name="IntesityReactiveLight" C_Type="0" C_Value="0.023364425" Map_MinDMax="0, 3" Midi_Port_Name="" Path="SceneManager.Scene.Lights.ReactiveLights.Intensity" Position="0.28785047, -0.57196224" />
+  </Item>
+  <Item>
+    <Sliders Bounds="0.52443933, -0.87196225, 0.11, 0.6" C_Name="DamperRactiveLight" C_Type="0" C_Value="0.023364425" Map_MinDMax="0, 2" Midi_Port_Name="" Path="SceneManager.Scene.Lights.ReactiveLights.Damper" Position="0.57943934, -0.57196224" />
+  </Item>
+</Spread>

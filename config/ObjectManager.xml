@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE ROOT PUBLIC "" ""[]>
+<ObjectManager>
+  <Objects Name="aa">
+    <SphereBoxShaderContext Float="0" />
+    <TrippyFractalContext Enabled="True">
+      <Fractalization Input_Scale="0.52855074" Iterations="7" />
+      <Rendering CameraClipSphereRadius="0.5237837" />
+      <SourceObject Mix="0.023364425" SmoothSDF="0" Sphere_Radius="0.070093274" />
+      <Transformations Rotate="False" Rotation_Period="3.3259277" />
+    </TrippyFractalContext>
+  </Objects>
+  <SphereBoxShader Float="0" />
+  <TrippyFractal CameraClipSphereRadius="0" CameraPosition="0, 0, 0" Enabled="False" Input_Scale="0" Iterations="0" Name="" Rotate="False" Rotation_Period="0" SmoothSDF="0">
+    <SourceObject Mix="0" SmoothSDF="0" Sphere_Radius="0" />
+  </TrippyFractal>
+</ObjectManager>

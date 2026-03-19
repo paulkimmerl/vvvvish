@@ -1,0 +1,8 @@
+{
+    "Logging": {
+        "File": {
+            "path": "../logs", // Relative folder pointer from the main executable or the root VL file.
+            "level": "Warning" // Choose from: Trace, Debug, Information, Warning, Error, Critical, None
+        }
+    }
+}

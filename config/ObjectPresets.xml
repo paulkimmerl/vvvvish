@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE ROOT PUBLIC "" ""[]>
+<Spread>
+  <Item Name="aa">
+    <SphereBoxShaderContext />
+    <TrippyFractalContext Enabled="True">
+      <Fractalization Input_Scale="1.21" Iterations="4" />
+      <Rendering CameraClipSphereRadius="0.37" />
+      <SourceObject Sphere_Radius="0.01" />
+      <Transformations Rotation_Period="11.273" />
+    </TrippyFractalContext>
+  </Item>
+</Spread>

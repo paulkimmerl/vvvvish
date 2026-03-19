@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE ROOT PUBLIC "" ""[]>
+<Dictionary>
+  <Item Key="Log">
+    <Value Key="L" Name="Log##Log" Visiblity="False" />
+  </Item>
+  <Item Key="Settings">
+    <Value Name="Settings##Settings" Visiblity="False" />
+  </Item>
+  <Item Key="Audio">
+    <Value Key="A" Name="Audio##Audio" Visiblity="True" />
+  </Item>
+  <Item Key="ObjectManager">
+    <Value Key="O" Name="ObjectManager##ObjectManager" Visiblity="True" />
+  </Item>
+  <Item Key="SceneManager">
+    <Value Key="S" Name="SceneManager##SceneManager" Visiblity="True" />
+  </Item>
+  <Item Key="AudioAnalysis">
+    <Value Key="A" Name="AudioAnalysis##AudioAnalysis" Visiblity="True" />
+  </Item>
+  <Item Key="Dashboard">
+    <Value Key="D" Name="Dashboard##Dashboard" Visiblity="False" />
+  </Item>
+  <Item Key="ModularController">
+    <Value Key="M" Name="ModularController##ModularController" Visiblity="True" />
+  </Item>
+</Dictionary>

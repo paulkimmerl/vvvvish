@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" xmlns:r="reflection" Id="RD0GjS9pxavQEpZMoA6eVU" LanguageVersion="2025.7.0" Version="0.128">
+  <NugetDependency Id="NJrFgO9LmByLZBBFHHtem7" Location="VL.CoreLib" Version="2025.7.0" />
+  <Patch Id="Qqgdrog4azFO3dJOVWJl92">
+    <Canvas Id="Kgzgm4b8HQDMycppnk7fgY" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="FySL3yvjQuJPLOqmX7zhl5">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <CategoryReference Kind="Category" Name="Primitive" />
+      </p:NodeReference>
+      <Patch Id="LlM6xeNakNXMiKqcQKBZgv">
+        <Canvas Id="BBFbn2l1onMMCWuxdUqido" CanvasType="Group">
+          <Node Bounds="78,190,62,19" Id="O7kEKAnP79gNYe35uaC29n">
+            <p:NodeReference LastCategoryFullName="Template.Controller" LastDependency="Controller.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Controller" />
+            </p:NodeReference>
+            <Pin Id="KBZrHQ55OY9LfEyk7iSlhO" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="B0kybGH87wvMQm6wqJEmjE" Name="Context" Kind="InputPin" />
+            <Pin Id="PMifRXoRuHKMat6KGNM9Go" Name="Output" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="VK5ZQkW8ZafN0V40C5RmKd" Name="Context" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="78,100,52,19" Id="VquxDbVqzGmPqdCnO3v0Dk">
+            <p:NodeReference LastDependency="Context.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Context" />
+            </p:NodeReference>
+            <Pin Id="RjZXFptqj4QPJR49p7sWt7" Name="Output" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="Ah6h5OLFM4EPuht86NYTDV" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="QdEuANLtPWNPmWisCJoiWf" Name="Context" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="78,330,65,19" Id="KVyQpuT27SFOQcfhs8Jyt1">
+            <p:NodeReference LastDependency="Output.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Output" />
+            </p:NodeReference>
+            <Pin Id="Ea5uwA9B3bVPfp7BzWsapB" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="GWPfl2g49ttNU4F0SvLq55" Name="Context" Kind="InputPin" />
+            <Pin Id="GP0CSxq9nTALUb8L31bAho" Name="Update" Kind="InputPin" />
+            <Pin Id="Ma8gTXtUNIUMvRCeCJFN10" Name="Output" Kind="OutputPin" IsHidden="true" />
+          </Node>
+        </Canvas>
+        <Patch Id="A8V9SGJl6G9Pw4Oa74dBV1" Name="Create" />
+        <Patch Id="BaDZ15PbIBzL50LtJQunHR" Name="Update" />
+        <ProcessDefinition Id="IuRf3Mvb0CmO5sI4XNSdwM">
+          <Fragment Id="Gjhzhf5ExuJNYUMpOOF1Vb" Patch="A8V9SGJl6G9Pw4Oa74dBV1" Enabled="true" />
+          <Fragment Id="Nvab3vWKPjpQVoSXjSpyCR" Patch="BaDZ15PbIBzL50LtJQunHR" Enabled="true" />
+        </ProcessDefinition>
+        <Link Id="LpiY2Gv5GVwMp8gG4lrIoM" Ids="QdEuANLtPWNPmWisCJoiWf,B0kybGH87wvMQm6wqJEmjE" />
+        <Link Id="OuwjKBKMZPaMPIYl1xJcOo" Ids="VK5ZQkW8ZafN0V40C5RmKd,GWPfl2g49ttNU4F0SvLq55" />
+      </Patch>
+    </Node>
+  </Patch>
+  <DocumentDependency Id="I718hMCIyoqQbDBqwFpYS1" Location="./Context.vl" />
+  <DocumentDependency Id="B6suPUaBsPWOXacByLeCvR" Location="./Controller.vl" />
+  <DocumentDependency Id="LcbENgEttvWOs3uEYR9qzh" Location="./Output.vl" />
+</Document>

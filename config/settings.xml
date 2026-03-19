@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE ROOT PUBLIC "" ""[]>
+<SceneManager>
+  <Scene Name="s">
+    <Background Enable="False" rgba="1, 1, 1, 1" />
+    <Cameras Orbit_Camera="True" Round_Table_Camera="False" Wanderer_Camera="False">
+      <RoundTableCameraCoinfigurations Distance="-5" Initial_Interest="0, 0, 0" Pitch="-0.05" Rotation_Speed="0.01" />
+      <WandererCameraCoinfigurations Camera_Motion_Damper="0.11" Distance="-5" Wanderer_Speed="0.01" Wanderer_Width="7, 7, 7" />
+    </Cameras>
+    <Lights>
+      <CenterVolumetricLight Center_Light="True" Color="1, 1, 1, 1" Density="5.45" Intensity="0.11682212" Range="11" Wanderer="False" />
+      <GeneralLights GeneralLights="False" />
+      <ReactiveLights BoxSize="1.38" Color="1, 1, 1, 1" Damper="0.04672885" Density="0.39" Enable="True" GeneralLight2="0.22" Helper="False" Intensity="0.070093274" Speed="4.92" />
+    </Lights>
+    <PostFX>
+      <Bloom Bloom="False" Intensity="1" Range="1" />
+      <Deph_Of_Field Deph_Of_Field="False" Intensity="1" />
+    </PostFX>
+  </Scene>
+</SceneManager>
